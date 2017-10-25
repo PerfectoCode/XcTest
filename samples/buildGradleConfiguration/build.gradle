@@ -1,0 +1,73 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+		    maven {
+          url "http//repository-perfectomobile.forge.cloudbees.com/public/"
+        }
+    }
+
+    dependencies {
+        "classpath com.perfectomobile.instrumentedtest.gradlepluginplugin+"
+    }
+}
+
+apply plugin 'com.perfectomobile.instrumentedtest.gradleplugin'
+
+perfectoGradleSettings {
+    configFileLocation configFile.json
+    cloudURL 
+  securityToken 
+  installationDetails {
+    preCleanUp true
+    resign true
+  }
+  preExecution {
+    setNetworkEmulationEnabled true
+  }
+  postExecution {
+    uninstall true
+  }
+  networkEmulationDetails {
+    setLatency 20
+    setPacketLoss 0.75
+    setBandwidthIn 10
+    setBandwidthOut 20
+    setPacketCorruption 0.25
+    setPacketReordering 1.50
+    setPacketDuplication 0.33
+    setDelayJitter 3
+    setCorrelation 3.45
+    setBlockedDestinations []
+    setBlockedPorts []
+    setGeneratePCapFile true
+    setGenerateHarFile true
+    setProfile 
+  }
+
+  packageTestNames []
+  appName 
+  jobName 
+  jobNumber 
+  appPath 
+  testAppPath 
+  testClassNames []
+  testMethodNames []
+  testSize 
+  instrumentationArgs []
+  acquireDeviceRetryNumber 1
+  acquireDeviceRetryInterval 200
+  debug true
+  failBuildOnFailure true
+  tags []
+  projectName "myProject"
+  projectVersion "10.11" 
+  branch "master"
+  runTask ""
+  takeScreenshotOnTestEnd true
+  takeScreenshotOnTestFailure false
+  tunnelId ""
+  runUnitTests false
+  runUiTests true
+}
