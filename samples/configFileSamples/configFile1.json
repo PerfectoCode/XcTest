@@ -5,7 +5,7 @@
   //Mandatory either by file or command path
   "securityToken": "<your perfecto token>",
 
-  //two random Android devices
+  //two random iOS devices
 	"devices": [
 		{},
     {}
