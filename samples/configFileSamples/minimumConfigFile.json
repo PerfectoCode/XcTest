@@ -1,0 +1,15 @@
+{
+  	//This config file will run on 1 random iOS device
+
+	//Mandatory either by file or command path
+  	"cloudURL": "<your perfecto cloud URL>",
+
+  	//Mandatory either by file or command path
+  	"securityToken": "<your perfecto token>",
+
+	//Mandatory either by file or command path
+  	"appPath": "/path/to/app.ipa",
+
+  	//Mandatory either by file or command path
+  	"testAppPath":"/path/to/app-runner.ipa"
+}
