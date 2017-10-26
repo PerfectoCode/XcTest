@@ -29,23 +29,6 @@ perfectoGradleSettings {
   postExecution {
     uninstall true
   }
-  networkEmulationDetails {
-    setLatency 20
-    setPacketLoss 0.75
-    setBandwidthIn 10
-    setBandwidthOut 20
-    setPacketCorruption 0.25
-    setPacketReordering 1.50
-    setPacketDuplication 0.33
-    setDelayJitter 3
-    setCorrelation 3.45
-    setBlockedDestinations []
-    setBlockedPorts []
-    setGeneratePCapFile true
-    setGenerateHarFile true
-    setProfile 
-  }
-
   packageTestNames []
   appName 
   jobName 
@@ -55,7 +38,6 @@ perfectoGradleSettings {
   testClassNames []
   testMethodNames []
   testSize 
-  instrumentationArgs []
   acquireDeviceRetryNumber 1
   acquireDeviceRetryInterval 200
   debug true
