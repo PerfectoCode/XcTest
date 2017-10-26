@@ -23,9 +23,6 @@ perfectoGradleSettings {
     preCleanUp true
     resign true
   }
-  preExecution {
-    setNetworkEmulationEnabled true
-  }
   postExecution {
     uninstall true
   }
