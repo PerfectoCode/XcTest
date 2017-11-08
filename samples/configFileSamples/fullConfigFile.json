@@ -5,27 +5,8 @@
     "preCleanUp": true,
     "resign": true
   },
-  "preExecution": {
-    "networkEmulationEnabled": true
-  },
   "postExecution": {
     "uninstall": true
-  },
-  "networkEmulationDetails": {
-    "latency": 20,
-    "packetLoss": 0.75,
-    "bandwidthIn": 10,
-    "bandwidthOut": 20,
-    "packetCorruption": 0.25,
-    "packetReordering": 1.50,
-    "packetDuplication": 0.33,
-    "delayJitter": 3,
-    "correlation": 3.45,
-    "blockedDestinations": [],
-    "blockedPorts": [],
-    "generatePCapFile": true,
-    "generateHarFile": true,
-    "profile": ""
   },
   "devices": {},
   "packageTestNames": [],
@@ -37,7 +18,6 @@
   "testClassNames": [],
   "testMethodNames": [],
   "testSize": "",
-  "instrumentationArgs": [],
   "acquireDeviceRetryNumber": 1,
   "acquireDeviceRetryInterval": 200,
   "debug": true,
