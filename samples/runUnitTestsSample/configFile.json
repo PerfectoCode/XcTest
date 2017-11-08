@@ -1,0 +1,19 @@
+{
+  "cloudURL": "qatestlab.perfectomobile.com",
+  "securityToken": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI5YWRlMjQ2Yi1iYjc0LTQ0N2EtOWNmMy1jYjRlODU3YjVmMjEiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTA3NDQ1NDkwLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3FhdGVzdGxhYi1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsInN1YiI6IjVjMjZhMTUxLTQ0ZGMtNGNjMy05ZjAwLTgzYjdiOTdiMTIzNiIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsInNlc3Npb25fc3RhdGUiOiJjNTBkMTJkMi1mOGUzLTQwNGQtOTIxMi0yYWU5ODI4YWUyODQiLCJjbGllbnRfc2Vzc2lvbiI6ImFmMjc1MzVmLTIwZmUtNDljZi1iZTBmLTdmM2FmYmUyN2RiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJ2aWV3LXByb2ZpbGUiXX19fQ.FJ8Lz0qScUtrWRxEFLot7UTJXkkZmBnKiSG9_IVqRjJoc5duS-UEvltdN-gvhAJFXE4r42oeaacQ6mEcLxw2mNl0J7zRETI0lvZXrYHRmg0f3hc7azAyTGQVcixwdpbHnYqiK2C5GuM25n9b2RhlPpFR1s3km1FsPRioljxAOm8ePNYBzE2NViJkWzJBjfJELuGQPYa1kncAmI3ogh2YDbJ50yQdhGmbMm39HbHYfXQkSv7mpmlxrFU8ic4QMAXu18uI7F92s3w7KVCEbNcfdNpK8cN97WhHiccqD0MGP2rwLMYLbnnvvO5PxUCc_lxqcZB4yVEZCIBbCYiN32HEqQ",
+  "appPath": "SimpleAppForTesting.ipa",
+  "devices": [
+    {}
+  ],
+  "tags": [
+    "test_1",
+    "test2"
+  ],
+  "projectName": "IOS-XCUITest",
+  "projectVersion": "v10.11-test",
+  "jobName": "some_job",
+  "jobNumber": 2,
+  "branch": "master",
+  "runUiTests": false,
+  "runUnitTests": true
+}
