@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+project 'KiffSimpleIosAppForTesting'
+
+target 'KiffSimpleIosAppForTestingTests' do
+  pod 'KIF'
+end
+
