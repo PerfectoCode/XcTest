@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        jcenter()
+		    maven {
+          url "http//repository-perfectomobile.forge.cloudbees.com/public/"
+        }
+    }
+
+    dependencies {
+        "classpath com.perfectomobile.instrumentedtest.gradlepluginplugin+"
+    }
+}
+
+apply plugin 'com.perfectomobile.instrumentedtest.gradleplugin'
+
+perfectoGradleSettings {
+    configFileLocation configFile.json
+  installationDetails {
+    preCleanUp true
+    resign true
+  }
+  postExecution {
+    uninstall true
+  }
+  acquireDeviceRetryNumber 3
+  acquireDeviceRetryInterval 200
+}

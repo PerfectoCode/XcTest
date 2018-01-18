@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+  target 'EarlGreySimpleIosAppForTestingTests' do
+    project 'EarlGreySimpleIosAppForTesting'
+    use_frameworks!
+    inherit! :search_paths
+    pod 'EarlGrey'
+  end
+
