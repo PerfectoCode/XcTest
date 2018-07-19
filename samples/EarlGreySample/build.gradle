@@ -2,19 +2,19 @@ buildscript {
     repositories {
         jcenter()
 		    maven {
-          url "http//repository-perfectomobile.forge.cloudbees.com/public/"
+          url "http://repository-perfectomobile.forge.cloudbees.com/public/"
         }
     }
 
     dependencies {
-        "classpath com.perfectomobile.instrumentedtest.gradlepluginplugin+"
+      classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
     }
 }
 
-apply plugin 'com.perfectomobile.instrumentedtest.gradleplugin'
+apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
-    configFileLocation configFile.json
+    configFileLocation "configFile.json"
   installationDetails {
     preCleanUp true
     resign true
