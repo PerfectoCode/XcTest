@@ -6,7 +6,6 @@
         "deviceName": "2AA59036EEEF1D64052347A03074CC700928C0B6"
     }
   ],
-  "appPath": "/home/danielr/Downloads/SingaporeAirUAT.ipa",
    "runUITests": false,
    "runUnitTests":true,
    "instrumentationArgs": ["EARLGREY"]
@@ -24,5 +23,10 @@
   "takeScreenshotOnTestEnd": true,
   "takeScreenshotOnTestStep": false,
   "takeScreenshotOnTestFailure": true,
-  "testTimeout": 180000
+  "testTimeout": 180000,
+
+
+
+  "appPath": "/home/danielr/Downloads/SingaporeAirUAT.ipa",
+  "testAppPath": "/home/danielr/Downloads/SingaporeAirUAT.ipa"
  }
