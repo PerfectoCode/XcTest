@@ -1,5 +1,28 @@
 {
-	"devices": [
-    {},{},{}
-	]
-}
+  "cloudURL": "qatestlab.perfectomobile.com",
+  "securityToken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpQzdvSVQyWk5hMzJSY0l5eWprS1lmS01LZlVqV0tGZWVfUGdab2g5M2RNIn0.eyJqdGkiOiIzODE2ZmE1Yi0xMmU1LTQwZGQtYWFlNi01NjhiMzYxYjUwNjkiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTU5NTUwNjYwLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3FhdGVzdGxhYi1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsInN1YiI6IjIwYjQzZjU3LTg0YWUtNGIwNC1iM2YyLWNjYzZmMjIzNzM2ZCIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiOTg0YjVmNzktMDgxYS00ZDNjLThmM2UtOWQ0NWY0MmE3NmEwIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiMGY5ZTczNzUtOGQxNC00NzkxLWEzZGQtYzBmNTg5ZTk4NzE1IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19fQ.SFrmqAdhvAhczG2k_cdvq8vQ-9pMzs1YRokOjMsFZZ9pilC54AAN2wCGS04U7Fe1A0POSHs2D09VIZHH6MspT9pgcisuR4rsKWRVf-oX1l0rH5ACzJP6hOiGHQozORfeWowhU0a4JBUPX0ly9NVgtG9nmDgufceWcOgIbm-9849MgrIB4jdWGNS9NrGo_rGGmnTUKFw-huCHAXzYFA8WUVyUpZ8ZWY8k7yebsdaq2SSYaRNBBQzzzdODTiMlmSpnfICXE9Y8O4rAljKsE22ueKCQtUIU8HevtHDNfi-AzkVDEi5AUQ1FTylO45oQNjFaGOL152CSjabAy8x-TFz6sw",
+  "devices": [
+    {
+        "deviceName": "2AA59036EEEF1D64052347A03074CC700928C0B6"
+    }
+  ],
+  "appPath": "/home/danielr/Downloads/SingaporeAirUAT.ipa",
+   "runUITests": false,
+   "runUnitTests":true,
+   "instrumentationArgs": ["EARLGREY"]
+  ,
+  "installationDetails" : {
+    "preCleanUp" : false,
+    "resign" : true
+    },
+"postExecution": {
+    "uninstall": false
+  },
+  "acquireDeviceRetryNumber": 1,
+  "acquireDeviceRetryInterval": 200,
+  "debug": true,
+  "takeScreenshotOnTestEnd": true,
+  "takeScreenshotOnTestStep": false,
+  "takeScreenshotOnTestFailure": true,
+  "testTimeout": 180000
+ }
