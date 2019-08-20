@@ -9,44 +9,12 @@ buildscript {
     }
 
     dependencies {
-        "classpath com.perfectomobile.instrumentedtest.gradlepluginplugin+"
+        classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
     }
 }
 
-apply plugin 'com.perfectomobile.instrumentedtest.gradleplugin'
+apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
-    configFileLocation configFile.json
-    cloudURL 
-  securityToken 
-  installationDetails {
-    preCleanUp true
-    resign true
-  }
-  postExecution {
-    uninstall true
-  }
-  packageTestNames []
-  appName 
-  jobName 
-  jobNumber 
-  appPath 
-  testAppPath 
-  testClassNames []
-  testMethodNames []
-  testSize 
-  acquireDeviceRetryNumber 1
-  acquireDeviceRetryInterval 200
-  debug true
-  failBuildOnFailure true
-  tags []
-  projectName "myProject"
-  projectVersion "10.11" 
-  branch "master"
-  runTask ""
-  takeScreenshotOnTestEnd true
-  takeScreenshotOnTestFailure false
-  tunnelId ""
-  runUnitTests false
-  runUiTests true
+    configFileLocation "/home/danielr/Desktop/configFile.json"
 }
