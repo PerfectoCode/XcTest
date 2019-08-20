@@ -16,5 +16,5 @@ buildscript {
 apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
-    configFileLocation "/home/danielr/Desktop/configFile.json"
+    configFileLocation "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/configFile.json"
 }
