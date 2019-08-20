@@ -1,10 +1,10 @@
 {
-  "cloudURL": "<your cloud url>",
-  "securityToken": "<your cloud security token>",
+  "cloudURL": "branchtest.perfectomobile.com",
+  "securityToken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQSUh2SDhXc081Y0FjZERUMGNSaGhyN25IWEUxSG53bEhUeFpuNzJ0enFrIn0.eyJqdGkiOiI5MDRmNWM0Ny1hNTRkLTRmZDItOWE0ZC1hMDI4NjYxODg2ZmYiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTYyMTM0NTU3LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2JyYW5jaHRlc3QtcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiIxNTU2NGNlMy1iOTc2LTRhZDgtOTA4My0yMDYwYTQ4ODc0ZDAiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJub25jZSI6IjU4N2ViNDM4LWU4NTUtNDNlNS04MjM1LTIxNWIzZTJlYzBjMCIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6ImJmMmRkMWI4LWVhYWQtNDJlNy1iOWMxLWIyYWYzOTU1MDAzNiIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fX0.WQ8womehXCfOw7EanZ0NPgmht8hhWUxB-B-AQSpWGPvbEBM1jASWa3eOUWPT1cPeMrx0nZinEGiecFmzEMDnl-SgMPurSW-8DUbtkDIdMLIQncyf4XWo3Um6sZ4wPnknfdvDOimBr_dmefIopZoTTBKLE3E6vaDaRb5AYsz3fXH8yqd_M--Oq0oLk2Oj_8d3N9-MqGq8ezkiMBER3vN2MxNCpSMRg93wskJp8YBYwM3N-z_0LZQrixfbfnXp_qzSd1_XAzspUpptAtiSxI3qPAVqdZGUJnS2r4xlrcyFZ-CJ8-pylD9WQIibaHyvTZQciNnJetb1yvsktTfHirq7mw",
   "appPath": "SimpleAppForTesting.ipa",
   "testAppPath": "SimpleAppForTesting-Runner.ipa",
   "devices": [
-    {}
+    {"deviceName":"B7284D9E402EECA516D2504EB95FBF75911CD71D"}
   ],
   "tags": [
     "test_1",
