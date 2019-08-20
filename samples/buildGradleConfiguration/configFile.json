@@ -8,15 +8,16 @@
   ],
    "runUITests": false,
    "runUnitTests":true,
-   "instrumentationArgs": ["EARLGREY"]
-  ,
+
   "installationDetails" : {
     "preCleanUp" : false,
     "resign" : true
-    },
+	},
+	
 "postExecution": {
     "uninstall": false
   },
+
   "acquireDeviceRetryNumber": 1,
   "acquireDeviceRetryInterval": 200,
   "debug": true,
@@ -25,8 +26,6 @@
   "takeScreenshotOnTestFailure": true,
   "testTimeout": 180000,
 
-
-
-  "appPath": "/home/danielr/Downloads/SingaporeAirUAT.ipa",
-  "testAppPath": "/home/danielr/Downloads/SingaporeAirUAT.ipa"
+  "appPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/SimpleIosAppForTesting.app",
+  "testAppPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/SimpleIosAppForTestingUITests-Runner.app"
  }
