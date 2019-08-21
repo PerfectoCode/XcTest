@@ -10,7 +10,7 @@
    "runUnitTests":true,
 
   "installationDetails" : {
-    "preCleanUp" : false,
+    "preCleanUp" : true,
     "resign" : true
 	},
 	
@@ -25,7 +25,6 @@
   "takeScreenshotOnTestStep": false,
   "takeScreenshotOnTestFailure": true,
   "testTimeout": 180000,
-
-  "appPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/SimpleIosAppForTesting.app",
-  "testAppPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/SimpleIosAppForTestingUITests-Runner.app"
+  
+  "appPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/SimpleIosAppForTesting.app"
  }

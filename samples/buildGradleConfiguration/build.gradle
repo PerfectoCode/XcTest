@@ -1,5 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
+// gradle perfecto-xctest -PitmsServerUrl=https://tests-executor.aws-dev.perfectomobile.com 
+// for dev
+// -PitmsServerUrl=https://tests-executor.aws-dev.perfectomobile.com 
 buildscript {
     repositories {
         jcenter()
@@ -18,3 +20,5 @@ apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 perfectoGradleSettings {
     configFileLocation "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/configFile.json"
 }
+
+///Users/danielr/Library/Developer/Xcode/DerivedData/SimpleIosAppForTesting-eqibelxvietnmbdsvlqmiuwvasiv/Build/Products/Debug-iphoneos/SimpleIosAppForTesting.app
