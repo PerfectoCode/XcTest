@@ -1,30 +1,35 @@
 {
-  "cloudURL": "qatestlab.perfectomobile.com",
-  "securityToken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpQzdvSVQyWk5hMzJSY0l5eWprS1lmS01LZlVqV0tGZWVfUGdab2g5M2RNIn0.eyJqdGkiOiIzODE2ZmE1Yi0xMmU1LTQwZGQtYWFlNi01NjhiMzYxYjUwNjkiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTU5NTUwNjYwLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3FhdGVzdGxhYi1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsInN1YiI6IjIwYjQzZjU3LTg0YWUtNGIwNC1iM2YyLWNjYzZmMjIzNzM2ZCIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiOTg0YjVmNzktMDgxYS00ZDNjLThmM2UtOWQ0NWY0MmE3NmEwIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiMGY5ZTczNzUtOGQxNC00NzkxLWEzZGQtYzBmNTg5ZTk4NzE1IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19fQ.SFrmqAdhvAhczG2k_cdvq8vQ-9pMzs1YRokOjMsFZZ9pilC54AAN2wCGS04U7Fe1A0POSHs2D09VIZHH6MspT9pgcisuR4rsKWRVf-oX1l0rH5ACzJP6hOiGHQozORfeWowhU0a4JBUPX0ly9NVgtG9nmDgufceWcOgIbm-9849MgrIB4jdWGNS9NrGo_rGGmnTUKFw-huCHAXzYFA8WUVyUpZ8ZWY8k7yebsdaq2SSYaRNBBQzzzdODTiMlmSpnfICXE9Y8O4rAljKsE22ueKCQtUIU8HevtHDNfi-AzkVDEi5AUQ1FTylO45oQNjFaGOL152CSjabAy8x-TFz6sw",
-  "devices": [
-    {
-        "deviceName": "2AA59036EEEF1D64052347A03074CC700928C0B6"
-    }
-  ],
-   "runUITests": false,
-   "runUnitTests":true,
-
-  "installationDetails" : {
-    "preCleanUp" : true,
-    "resign" : true
-	},
-	
-"postExecution": {
-    "uninstall": false
-  },
-
-  "acquireDeviceRetryNumber": 1,
-  "acquireDeviceRetryInterval": 200,
-  "debug": true,
-  "takeScreenshotOnTestEnd": true,
-  "takeScreenshotOnTestStep": false,
-  "takeScreenshotOnTestFailure": true,
-  "testTimeout": 180000,
+	"cloudURL": "singaporeairlines.perfectomobile.com",
+	"securityToken": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJyRlpmZDdhRGkxRUJ4Y1hHaHZ0dE5TaGRZSkloZ0JVS25NSUFDLWFTWHRBIn0.eyJqdGkiOiIwMjEyNmRhZC1lODQ2LTQ3OTMtODg5OC01YmQ1YWVmOTlkMzYiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTY2NDg0Mjc3LCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3NpbmdhcG9yZWFpcmxpbmVzLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic3ViIjoiZTI2Zjg0ZDctMmM3OS00MDViLTgzZDMtYjg4ZjcwNDJjNDllIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI2ZmMzYjJmNy0xYTNhLTRjNGEtODRlOS1mM2VjNTNiMTA4Y2QiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiJiOWVhNGY4ZS0xZmQ0LTRjZDgtOWMxZS1hMWVkNjRlY2VmZGEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX19.O2SUYg4m-f2z6D60Pe3hoI2GqxS5Y8ifYzfNwRd5S3GXpbVYs6xO6RVw_EXCePfjsMl5mYkiefbMOVEzguO8Oe0_SNhiflmvJn3_VnD-FsKcrk8g1frmp2yB6G762k5Y3LVVVo4etBCV2MD3-vaNxsTw4B2Scw98ANzHmdta_n4fPmLgHxEVgtUayX7Vaivlf7DwMzHQVqImYaAoIfd8g7OlQI2RxneY-o-5tda69jb6_wU2owSzXVOlM6prUCUGxnRF8Zy-ePEczDdfG2Ihspu2vMoe1UVy0HbMYdZQtzeEjd0ixQF1ZJVHr9pgZGYUHPBG6z2kW4C2LbnAo8R_yA",
+	"devices": [
+	  {
+		  "deviceName": "478EA8E51D6D36455AD4E398B8CEEC7276A1A8EA"
+	  }
+	],
+	 "runUITests": false,
+	 "runUnitTests":true,
   
-  "appPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/SimpleIosAppForTesting.app"
- }
+	"installationDetails" : {
+	  "preCleanUp" : false,
+	  "resign" : true
+	  },
+
+	  "preExecution": {
+		"install": true
+	  },
+	  
+  "postExecution": {
+	  "uninstall": true
+	},
+  
+	"acquireDeviceRetryNumber": 1,
+	"acquireDeviceRetryInterval": 200,
+	"debug": true,
+	"takeScreenshotOnTestEnd": true,
+	"takeScreenshotOnTestStep": false,
+	"takeScreenshotOnTestFailure": true,
+	"testTimeout": 180000,
+	
+	"appPath": "/Users/danielr/Documents/Root/XcTest/samples/buildGradleConfiguration/test.ipa"
+   }
+  
