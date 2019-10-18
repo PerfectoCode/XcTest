@@ -1,0 +1,19 @@
+{
+  "cloudURL": "mycloud.perfectomobile.com",
+  "securityToken": "<your security token>",
+  "appPath": "SimpleAppForTesting.ipa",
+  "devices": [
+    {}
+  ],
+  "tags": [
+    "test_1",
+    "test2"
+  ],
+  "projectName": "IOS-XCUITest",
+  "projectVersion": "v10.11-test",
+  "jobName": "some_job",
+  "jobNumber": 2,
+  "branch": "master",
+  "runUiTests": false,
+  "runUnitTests": true
+}
