@@ -1,0 +1,13 @@
+{
+  "cloudURL": "<your perfecto cloud URL>",
+  "securityToken": "<your perfecto token>",
+  "devices": [
+        {
+            "deviceName": "<your device name>"
+        }
+    ],
+   "appPath": "EarlGreySimpleIosAppForTesting.ipa",
+   "runUITests": "false",
+   "instrumentationArgs": ["EARLGREY"]
+}
+

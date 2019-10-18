@@ -1,0 +1,20 @@
+{
+  "cloudURL": "<your cloud url>",
+  "securityToken": "<your cloud security token>",
+  "appPath": "SimpleAppForTesting.ipa",
+  "testAppPath": "SimpleAppForTesting-Runner.ipa",
+  "devices": [
+    {}
+  ],
+  "tags": [
+    "test_1",
+    "test2"
+  ],
+  "projectName": "IOS-XCUITest",
+  "projectVersion": "v10.9-test",
+  "jobName": "some_job",
+  "jobNumber": 2,
+  "branch": "master",
+  "runUiTests": true,
+  "runUnitTests": true
+}

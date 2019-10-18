@@ -1,0 +1,23 @@
+{
+	//Mandatory either by file or command path
+  "cloudURL": "<your perfecto cloud URL>",
+
+  //Mandatory either by file or command path
+  "securityToken": "<your perfecto token>",
+
+  //two random iOS devices
+	"devices": [
+		{},
+    {}
+	],
+  
+  "tags" : ["test_1","test2"],
+  "projectName" : "XCTest",
+  "projectVersion" : "v10.5-test",
+  "jobName" : "some_job",
+  "jobNumber" : 2,
+  "branch" : "master",
+
+  "appPath" : "C:\\app.ipa",
+  "testAppPath" : "C:\\app-test-runner.ipa"
+}
