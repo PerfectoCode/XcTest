@@ -20,5 +20,6 @@ All samples can be run by providing the needed parameters and running the comman
 </ul>
 In the configFilesSamples folder you can see different examples of how it's possible to configure the plugin. Except for devices, all parameters can be overriden by the command line.
 
+
 The samples in the ```samples``` folder are relevant for real devices. For virtual devices
 samples, please refer to the samples inside ```virtualDevicesSamples``` folder.  
