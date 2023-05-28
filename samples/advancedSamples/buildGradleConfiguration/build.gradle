@@ -9,11 +9,11 @@ buildscript {
     }
 
     dependencies {
-        "classpath com.perfectomobile.instrumentedtest.gradlepluginplugin+"
+        classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
     }
 }
 
-apply plugin 'com.perfectomobile.instrumentedtest.gradleplugin'
+apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
     configFileLocation configFile.json
