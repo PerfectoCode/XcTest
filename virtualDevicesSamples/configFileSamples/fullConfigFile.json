@@ -1,0 +1,23 @@
+{
+  "cloudURL": "<CLOUD_NAME>.perfectomobile.com",
+  "securityToken": "",
+  "devices": {},
+  "xctestProductsPath": "",
+  "testPlanName": "",
+  "jobName": "",
+  "jobNumber": "",
+  "testClassNames": [],
+  "testMethodNames": [],
+  "instrumentationEnvVars": [],
+  "failBuildOnFailure": true,
+  "tags": [],
+  "projectName": "",
+  "projectVersion": "",
+  "branch": "",
+  "takeScreenshotOnTestEnd": true,
+  "takeScreenshotOnTestFailure": false,
+  "shard": false,
+  "runUnitTests": false,
+  "runUITests": true,
+  "testTimeout": 60000
+}

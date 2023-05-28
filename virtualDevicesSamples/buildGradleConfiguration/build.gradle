@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "https://repo1.perfectomobile.com/public/repositories/maven"
+        }
+    }
+
+    dependencies {
+        classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
+    }
+}
+
+apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
+
+perfectoGradleSettings {
+    configFileLocation "configFile.json"
+    cloudURL "<CLOUD_NAME>.perfectomobile.com"
+    securityToken ""
+    xctestProductsPath "../testProducts.xctestproducts"
+    jobName "someJob"
+    jobNumber 1
+    testClassNames = ["TestUITests.SampleTests"]
+    testMethodNames = ["TestUITests.TestUITests#testPositiveCase"]
+    testPlanName ""
+    failBuildOnFailure true
+    tags = ["tag"]
+    projectName "myProject"
+    projectVersion "10.11"
+    branch "master"
+    takeScreenshotOnTestEnd false
+    takeScreenshotOnTestFailure true
+    runUnitTests false
+    runUITests true
+}
