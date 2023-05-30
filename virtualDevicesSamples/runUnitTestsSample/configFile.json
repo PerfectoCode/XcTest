@@ -1,0 +1,19 @@
+{
+  "cloudURL": "<CLOUD_NAME>.perfectomobile.com",
+  "securityToken": "",
+  "xctestProductsPath": "../testProducts.xctestproducts",
+  "devices": [
+    {}
+  ],
+  "tags": [
+    "test_1",
+    "test2"
+  ],
+  "projectName": "IOS-XCUITest",
+  "projectVersion": "v10.9-test",
+  "jobName": "some_job",
+  "jobNumber": 2,
+  "branch": "master",
+  "runUITests": false,
+  "runUnitTests": true
+}
